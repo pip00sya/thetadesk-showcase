@@ -12,6 +12,21 @@ A paper-trading options desk built for the Alpaca AI Trading Agents Hackathon. I
 [Submitted deck](media/theta-desk-slides.pdf) ·
 [Public source](https://github.com/pip00sya/theta-desk)
 
+## Watch the desk explain its own decisions
+
+[![The recorded ThetaDesk presentation explains how model discussion meets deterministic risk gates.](media/demo-preview.jpg)](media/theta-desk-demo.mp4)
+
+**[▶ Open the original 6:56 recording](media/theta-desk-demo.mp4)** ·
+[Competition slide deck](media/theta-desk-slides.pdf) ·
+[Reading the evidence and reproducing the desk](docs/TECHNICAL.md)
+
+The recording combines the retained pitch and paper-account interface. Approximate
+scene positions: **1:15** architecture, **2:38** journal/evidence, **4:01** sizing
+lessons, **5:24** dashboard and **6:31** archived paper book. Figures and model
+labels belong to the recorded period; they do not describe a current trading session.
+
+[![Cover of the retained Alpaca hackathon presentation. Counts are historical to this deck version.](media/pitch-preview.jpg)](media/theta-desk-slides.pdf)
+
 ## A proposal is not an order
 
 ThetaDesk separates the work of interpreting a possible trade from the rules that permit it. The model roles can disagree, veto or reduce a proposal. They cannot relax the deterministic constraints that run before an order is created.
@@ -107,10 +122,10 @@ partners across the project.
 
 
 This public case study is maintained on Nurkhan's account.
-[Companion showcase on Shakhnazar's account](https://github.com/Eye172/thetadesk-showcase) ·
+[Project on Shakhnazar’s account](https://github.com/Eye172/alpaca-ai-trading-agents-hackathon) ·
 [Nurkhan's projects](https://github.com/pip00sya) · [Shakhnazar's projects](https://github.com/Eye172).
 
-[Public original implementation](https://github.com/pip00sya/theta-desk) · [Eye172 history and data copy](https://github.com/Eye172/alpaca-ai-trading-agents-hackathon) (access depends on repository visibility).
+[Public original implementation](https://github.com/pip00sya/theta-desk) · [Eye172 history and data copy](https://github.com/Eye172/alpaca-ai-trading-agents-hackathon) (public at the 12 October 2026 review).
 
 [Hackathon record and supporting sources](docs/HACKATHON.md) ·
 [Media provenance](docs/MEDIA.md).
